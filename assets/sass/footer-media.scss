@@ -1,0 +1,23 @@
+//responsive en 1024px:
+@media screen and (min-width: 1024px) {
+    
+    footer {
+        display: flex;
+        height: 95px;
+        padding: 0 100px;
+        justify-content: space-between;
+    }
+
+    .networks-footer{
+        display: flex;
+        justify-content: center;
+        padding-top: 27px;
+        //width: 232px;
+
+
+        ul li {
+            padding-left: 36px;
+        }
+    }
+
+}
